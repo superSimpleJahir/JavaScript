@@ -88,3 +88,9 @@ document.write(FullName.toUpperCase() + '<br><br>');
 document.write(FullName.charAt(1));
 
 
+// string Trim method
+let jahir = '    Md Jahirul Islam     ';
+console.log(jahir.length);
+console.log(jahir.trim().length);
+console.log(jahir.trimStart().length);
+console.log(jahir.trimEnd().length);
